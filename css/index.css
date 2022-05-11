@@ -29,13 +29,14 @@ header .btm .spot button {width: 59px; height: 59px; background: none; color: #0
 
 /* 슬라이드 */
 .slide1 { padding-top: 158px;}
-.slide1 .control { position: absolute; left: 0; right: 0; bottom: 30px; z-index: 100; text-align: center;}
+.slide1 img { width: 100%;}
+.slide1 .control { position: absolute; left: 0; right: 0; bottom: 10px; z-index: 100; text-align: center;}
 .slide1 .control > div { display: inline-block;}
-.slide1 .slide_btn_next,
-.slide1 .slide_btn_prev { width: 14px; height: 24px; transform:  translateY(5px); margin: 0 14px;}
-.slide1 .slide_btn_next { background: url(../images/sBtn_next3.png) no-repeat;}
-.slide1 .slide_btn_prev { background: url(../images/sBtn_prev3.png) no-repeat;}
-.slide1 .paging1 span { margin: 0 5px; width: 12px; height: 12px; background: #d9d9d9; border-radius: 12px; transition:width .3s;}
+.slide1 .next,
+.slide1 .prev { width: 14px; height: 24px; transform:  translateY(5px); margin: 0 14px;}
+.slide1 .next { background: url(../images/sBtn_next3.png) no-repeat;}
+.slide1 .prev { background: url(../images/sBtn_prev3.png) no-repeat;}
+.slide1 .paging1 span { margin: 1px 5px; width: 12px; height: 12px; background: #d9d9d9; border-radius: 12px; transition: .1s; }
 .slide1 .paging1 span.swiper-pagination-bullet-active { width: 30px; background: #288bcc;}
 
 
@@ -80,7 +81,7 @@ header .btm .spot button {width: 59px; height: 59px; background: none; color: #0
 .service .bank2 { position: relative; font-size: 0;}
 
 /* 관심정보 */
-.fav_info { background: #f9f9f9; padding: 0 352px 103px;}
+.fav_info { background: #f9f9f9; padding: 0 0 100px;}
 .fav_info .allbox { padding: 14px 0 0; height: 519px;}
 .fav_info .left { position: absolute; float: left;}
 .fav_info .left > a { display: block; width: 384px; height: 65px; background: #3f69b8; border-radius: 5px; font-size: 20px; color: #fff;
@@ -186,7 +187,7 @@ background: url(../images/icon_more.png) no-repeat center;}
 .customer label + a { font-size: 15px; color: #8b8b8b; text-decoration: underline; font-weight: 300;}
 
 /* 배너 */
-.slide_btm { padding: 40px; font-size: 0;}
+.slide_btm { padding: 42px; font-size: 0;}
 .slide_btm .slide8 a { padding: 0 10px 0 0;}
 .slide_btm img { border: 1px solid #e3e3e3;}
 

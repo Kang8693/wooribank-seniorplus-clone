@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  var swiper = new Swiper('.slide1', {
+  var swiper1 = new Swiper('.slide1', {
     slidesPerView: 1,
     spaceBetween: 30,
     effect: 'fade',
@@ -14,8 +14,8 @@ $(document).ready(function(){
       disableOnInteraction: false,
     },
     navigation: {
-      nextEl: '.slide1 .slide_btn_next',
-      prevEl: '.slide1 .slide_btn_prev',
+      nextEl: '.slide1 .next',
+      prevEl: '.slide1 .prev',
     },
   });
 
@@ -81,10 +81,6 @@ $(document).ready(function(){
     slidesPerView: 1,
     loop: true,
     centeredSlides: true,
-    pagination : {
-      el : '.paging1',
-      clickable: true,
-    },
     navigation: {
       nextEl: '.slide6 .next',
       prevEl: '.slide6 .prev',
